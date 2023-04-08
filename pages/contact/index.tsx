@@ -1,5 +1,5 @@
 import Layout from "@/components/layout/layout";
-
+import Link from "next/link";
 export default function Contact() {
   return (
     <Layout>
@@ -9,8 +9,8 @@ export default function Contact() {
         </h2>
         <p className="text-center w-responsive mx-auto mb-4">
           Do you have any questions? Please do not hesitate to contact us
-          directly. Our team will come back to you within a matter of hours to
-          help you.
+          directly. Our team will come back to you within Link matter of hours
+          to help you.
         </p>
 
         <div className="row">
@@ -53,7 +53,9 @@ export default function Contact() {
               </div>
             </form>
             <div className="text-center text-md-left mt-4">
-              <a className="btn btn-primary">Send</a>
+              <Link className="btn btn-primary" href="#">
+                Send
+              </Link>
             </div>
             <div className="status"></div>
           </div>

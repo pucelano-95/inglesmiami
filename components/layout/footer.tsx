@@ -1,10 +1,11 @@
+import Link from "next/link";
+
 export default function Footer() {
   return (
     <footer className="pt-4 my-md-5 pt-md-5 border-top">
       <div className="row">
         <div className="col-12 col-md">
           <small className="d-block mb-3 text-muted">
-            {" "}
             {"© " +
               new Date().getFullYear() +
               " " +
@@ -15,34 +16,34 @@ export default function Footer() {
           <h5>Features</h5>
           <ul className="list-unstyled text-small">
             <li className="mb-1">
-              <a className="link-secondary text-decoration-none" href="#">
+              <Link className="link-secondary text-decoration-none" href="#">
                 Cool stuff
-              </a>
+              </Link>
             </li>
             <li className="mb-1">
-              <a className="link-secondary text-decoration-none" href="#">
+              <Link className="link-secondary text-decoration-none" href="#">
                 Random feature
-              </a>
+              </Link>
             </li>
             <li className="mb-1">
-              <a className="link-secondary text-decoration-none" href="#">
+              <Link className="link-secondary text-decoration-none" href="#">
                 Team feature
-              </a>
+              </Link>
             </li>
             <li className="mb-1">
-              <a className="link-secondary text-decoration-none" href="#">
+              <Link className="link-secondary text-decoration-none" href="#">
                 Stuff for developers
-              </a>
+              </Link>
             </li>
             <li className="mb-1">
-              <a className="link-secondary text-decoration-none" href="#">
+              <Link className="link-secondary text-decoration-none" href="#">
                 Another one
-              </a>
+              </Link>
             </li>
             <li className="mb-1">
-              <a className="link-secondary text-decoration-none" href="#">
+              <Link className="link-secondary text-decoration-none" href="#">
                 Last time
-              </a>
+              </Link>
             </li>
           </ul>
         </div>
@@ -50,24 +51,24 @@ export default function Footer() {
           <h5>Resources</h5>
           <ul className="list-unstyled text-small">
             <li className="mb-1">
-              <a className="link-secondary text-decoration-none" href="#">
+              <Link className="link-secondary text-decoration-none" href="#">
                 Resource
-              </a>
+              </Link>
             </li>
             <li className="mb-1">
-              <a className="link-secondary text-decoration-none" href="#">
+              <Link className="link-secondary text-decoration-none" href="#">
                 Resource name
-              </a>
+              </Link>
             </li>
             <li className="mb-1">
-              <a className="link-secondary text-decoration-none" href="#">
+              <Link className="link-secondary text-decoration-none" href="#">
                 Another resource
-              </a>
+              </Link>
             </li>
             <li className="mb-1">
-              <a className="link-secondary text-decoration-none" href="#">
+              <Link className="link-secondary text-decoration-none" href="#">
                 Final resource
-              </a>
+              </Link>
             </li>
           </ul>
         </div>
@@ -75,30 +76,36 @@ export default function Footer() {
           <h5>About</h5>
           <ul className="list-unstyled text-small">
             <li className="mb-1">
-              <a className="link-secondary text-decoration-none" href="/about">
+              <Link
+                className="link-secondary text-decoration-none"
+                href="/about"
+              >
                 Team
-              </a>
+              </Link>
             </li>
             <li className="mb-1">
-              <a
+              <Link
                 className="link-secondary text-decoration-none"
                 href="/locations"
               >
                 Locations
-              </a>
+              </Link>
             </li>
             <li className="mb-1">
-              <a
+              <Link
                 className="link-secondary text-decoration-none"
                 href="/privac7"
               >
                 Privacy
-              </a>
+              </Link>
             </li>
             <li className="mb-1">
-              <a className="link-secondary text-decoration-none" href="/terms">
+              <Link
+                className="link-secondary text-decoration-none"
+                href="/terms"
+              >
                 Terms
-              </a>
+              </Link>
             </li>
           </ul>
         </div>
