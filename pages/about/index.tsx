@@ -3,7 +3,7 @@ import Layout from "@/components/layout/layout";
 export default function About() {
   return (
     <Layout>
-      <div className="pricing-header p-3 pb-md-4 mx-auto text-center">
+      <div className="pricing-header p-5 mx-auto text-center">
         <h1 className="display-4 fw-normal">About</h1>
         <p className="fs-5 text-muted">
           Born to immigrant parents, Ralph Barrero knew he was going to be an

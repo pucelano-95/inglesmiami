@@ -6,7 +6,7 @@ type Props = {
 
 export default function Header({ title }: Props) {
   return (
-    <nav className="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+    <nav className="navbar navbar-expand-md navbar-dark fixed-top bg-dark mb-4">
       <div className="container-fluid">
         <Link className="navbar-brand" href="/">
           inglesmiami

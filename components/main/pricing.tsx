@@ -2,10 +2,7 @@ import Image from "next/image";
 
 export default function Pricing() {
   return (
-    <div
-      className="pricing-header p-3 pb-md-4 mx-auto text-center"
-      id="pricing"
-    >
+    <div className="pricing-header p-5 mx-auto text-center" id="pricing">
       <Image
         src="/inglesmiamilogo.svg"
         alt="inglesmiamilogo"
