@@ -9,7 +9,7 @@ export default function Locations() {
           We are proud to be based in sunny Miami, Florida! Our headquarters are
           located in the heart of Miami, where our team works hard to provide
           the best possible English teaching experience to our students. Whether
-          you're a local resident or visiting from out of town, we invite you to
+          you&apos;re a local resident or visiting from out of town, we invite you to
           come and visit our beautiful city and take advantage of our English
           language classes. In addition to our main location in Miami, we also
           offer online classes for those who are unable to attend in person. Our

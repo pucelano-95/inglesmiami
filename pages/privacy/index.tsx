@@ -19,7 +19,7 @@ export default function Privacy() {
           security measures to protect your personal information, and we
           regularly review and update our security protocols to ensure the
           highest level of protection. If you have any questions or concerns
-          about our Privacy Policy, please don't hesitate to contact us at{" "}
+          about our Privacy Policy, please don&apos;t hesitate to contact us at{" "}
           <a href="mailto:privacy@inglesmiami.com">privacy@inglesmiami.com</a>.
           We will do our best to assist you and provide any information you may
           need. Thank you for choosing {process.env.NEXT_PUBLIC_TITLE} as your

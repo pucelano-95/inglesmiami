@@ -20,7 +20,7 @@ export default function Terms() {
         <p>
           You agree to use our website only for lawful purposes and in a way
           that does not infringe upon the rights of others or restrict or
-          inhibit anyone else's use or enjoyment of our website.
+          inhibit anyone else&apos;s use or enjoyment of our website.
         </p>
         <h2>3. Intellectual Property</h2>
         <p>
@@ -39,7 +39,7 @@ export default function Terms() {
         </p>
         <h2>5. Disclaimers</h2>
         <p>
-          Our website is provided on an "as is" and "as available" basis, and we
+          Our website is provided on an &quot;as is&quot; and &quot;as available&quot; basis, and we
           make no representations or warranties of any kind, express or implied,
           about the completeness, accuracy, reliability, suitability, or
           availability with respect to the website or the information, products,
