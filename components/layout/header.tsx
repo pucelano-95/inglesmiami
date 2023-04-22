@@ -9,7 +9,7 @@ export default function Header({ title }: Props) {
     <nav className="navbar navbar-expand-md navbar-dark fixed-top bg-dark mb-4">
       <div className="container-fluid">
         <Link className="navbar-brand" href="/">
-          inglesmiami
+          {title}
         </Link>
         <button
           className="navbar-toggler"
@@ -35,18 +35,13 @@ export default function Header({ title }: Props) {
               </Link>
             </li>
             <li className="nav-item">
-              <Link className="nav-link" href="#services">
+              <Link className="nav-link" href="/#services">
                 Services
               </Link>
             </li>
             <li className="nav-item">
               <Link className="nav-link" href="/contact">
                 Contact
-              </Link>
-            </li>
-            <li className="nav-item">
-              <Link className="nav-link" href="/signup">
-                Sign up
               </Link>
             </li>
             <li className="nav-item">

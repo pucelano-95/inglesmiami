@@ -13,72 +13,12 @@ export default function Footer() {
           </small>
         </div>
         <div className="col-6 col-md">
-          <h5>Features</h5>
-          <ul className="list-unstyled text-small">
-            <li className="mb-1">
-              <Link className="link-secondary text-decoration-none" href="#">
-                Cool stuff
-              </Link>
-            </li>
-            <li className="mb-1">
-              <Link className="link-secondary text-decoration-none" href="#">
-                Random feature
-              </Link>
-            </li>
-            <li className="mb-1">
-              <Link className="link-secondary text-decoration-none" href="#">
-                Team feature
-              </Link>
-            </li>
-            <li className="mb-1">
-              <Link className="link-secondary text-decoration-none" href="#">
-                Stuff for developers
-              </Link>
-            </li>
-            <li className="mb-1">
-              <Link className="link-secondary text-decoration-none" href="#">
-                Another one
-              </Link>
-            </li>
-            <li className="mb-1">
-              <Link className="link-secondary text-decoration-none" href="#">
-                Last time
-              </Link>
-            </li>
-          </ul>
-        </div>
-        <div className="col-6 col-md">
-          <h5>Resources</h5>
-          <ul className="list-unstyled text-small">
-            <li className="mb-1">
-              <Link className="link-secondary text-decoration-none" href="#">
-                Resource
-              </Link>
-            </li>
-            <li className="mb-1">
-              <Link className="link-secondary text-decoration-none" href="#">
-                Resource name
-              </Link>
-            </li>
-            <li className="mb-1">
-              <Link className="link-secondary text-decoration-none" href="#">
-                Another resource
-              </Link>
-            </li>
-            <li className="mb-1">
-              <Link className="link-secondary text-decoration-none" href="#">
-                Final resource
-              </Link>
-            </li>
-          </ul>
-        </div>
-        <div className="col-6 col-md">
           <h5>About</h5>
           <ul className="list-unstyled text-small">
             <li className="mb-1">
               <Link
                 className="link-secondary text-decoration-none"
-                href="/about"
+                href="/team"
               >
                 Team
               </Link>
@@ -94,7 +34,7 @@ export default function Footer() {
             <li className="mb-1">
               <Link
                 className="link-secondary text-decoration-none"
-                href="/privac7"
+                href="/privacy"
               >
                 Privacy
               </Link>

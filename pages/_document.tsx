@@ -5,6 +5,10 @@ export default function Document() {
   return (
     <Html lang="en">
       <Head>
+        <meta
+          name="google-site-verification"
+          content="5T65_b1YbNynUnjTL51ERXggF9j2Jf_2ovwhs1qJ1BY"
+        />
         <meta http-equiv="content-type" content="text/html; charset=utf-8" />
         <Link
           href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"

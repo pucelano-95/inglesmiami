@@ -1,6 +1,9 @@
 export default function Services() {
   return (
-    <div className="row row-cols-1 row-cols-md-3 mb-3 text-center"  id="services">
+    <div
+      className="row row-cols-1 row-cols-md-3 mb-3 text-center"
+      id="services"
+    >
       <div className="col">
         <div className="card mb-4 rounded-3 shadow-sm">
           <div className="card-header py-3">
@@ -12,20 +15,16 @@ export default function Services() {
             </h1>
             <ul className="list-unstyled mt-3 mb-4">
               <li>English or Spanish level evaluation</li>
-              <li>VIP 1-1 lessons</li>
               <li>Small groups 5-8 people</li>
               <li>Translation-Interpretation</li>
               <li>Subtitle services</li>
-              <li>In-person or online</li>
-              <li>OEFL or TOEIC exam preparation</li>
-              <li>Academic evaluation of your foreign degree</li>
-              <li>Live and study in Miami</li>
+              <li>Online</li>
             </ul>
             <button
               type="button"
               className="w-100 btn btn-lg btn-outline-primary"
             >
-              Sign up for free
+              Log in for free
             </button>
           </div>
         </div>
@@ -41,17 +40,16 @@ export default function Services() {
             </h1>
             <ul className="list-unstyled mt-3 mb-4">
               <li>English or Spanish level evaluation</li>
-              <li>VIP 1-1 lessons</li>
-              <li>Small groups 5-8 people</li>
-              <li>Translation-Interpretation</li>
-              <li>Subtitle services</li>
               <li>In-person or online</li>
               <li>OEFL or TOEIC exam preparation</li>
               <li>Academic evaluation of your foreign degree</li>
               <li>Live and study in Miami</li>
             </ul>
-            <button type="button" className="w-100 btn btn-lg btn-primary">
-              Get started
+            <button
+              type="button"
+              className="w-100 btn btn-lg btn-outline-primary"
+            >
+              Log in for free
             </button>
           </div>
         </div>
@@ -66,15 +64,11 @@ export default function Services() {
               $30<small className="text-muted fw-light">/hour</small>
             </h1>
             <ul className="list-unstyled mt-3 mb-4">
-              <li>English or Spanish level evaluation</li>
-              <li>VIP 1-1 lessons</li>
-              <li>Small groups 5-8 people</li>
+              <li>English or Spanish enterprise level evaluation</li>
               <li>Translation-Interpretation</li>
-              <li>Subtitle services</li>
               <li>In-person or online</li>
-              <li>OEFL or TOEIC exam preparation</li>
               <li>Academic evaluation of your foreign degree</li>
-              <li>Live and study in Miami</li>
+              <li>Live, study and work in Miami</li>
             </ul>
             <button type="button" className="w-100 btn btn-lg btn-primary">
               Contact us
