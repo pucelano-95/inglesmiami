@@ -5,6 +5,7 @@ export default function Document() {
   return (
     <Html lang="en">
       <Head>
+        <title>{process.env.NEXT_PUBLIC_TITLE}</title>
         <meta
           name="google-site-verification"
           content="5T65_b1YbNynUnjTL51ERXggF9j2Jf_2ovwhs1qJ1BY"

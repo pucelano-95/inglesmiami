@@ -1,6 +1,17 @@
 import Layout from "@/components/layout/layout";
-import Link from "next/link";
+import Form from "@/components/shared/form";
+import FormButton from "@/components/shared/formButton";
+import FormField from "@/components/shared/formField";
+import { FormValues } from "@/hooks/useForm";
+import { sendEmailAction } from "@/store/actions";
+import { useDispatch } from "react-redux";
+
 export default function Contact() {
+  const dispatch = useDispatch();
+  const handleSubmit = (email: FormValues) => {
+    dispatch(sendEmailAction(email));
+  };
+
   return (
     <Layout>
       <section className="mb-4">
@@ -9,57 +20,51 @@ export default function Contact() {
         </h2>
         <p className="text-center w-responsive mx-auto mb-4">
           Do you have any questions? Please do not hesitate to contact us
-          directly. Our team will come back to you within Link matter of hours
-          to help you.
+          directly. Our team will come back to you within hours to help you.
         </p>
 
         <div className="row">
-          <div className="col-md-9">
-            <form>
-              <div className="form-group mt-4">
-                <label htmlFor="name">Your name</label>
-                <input
-                  type="text"
-                  className="form-control"
-                  id="name"
-                  placeholder="Alejandro"
-                />
-              </div>
-              <div className="form-group mt-4">
-                <label htmlFor="emailAddress">Your email address</label>
-                <input
-                  type="email"
-                  className="form-control"
-                  id="emailAddress"
-                  placeholder="alejandro@gmail.com"
-                />
-              </div>
-              <div className="form-group mt-4">
-                <label htmlFor="subject">Subject</label>
-                <input
-                  type="text"
-                  className="form-control"
-                  id="subject"
-                  placeholder="Classes"
-                />
-              </div>
-              <div className="form-group mt-4">
-                <label htmlFor="message">Your message</label>
-                <textarea
-                  className="form-control"
-                  id="message"
-                  rows={3}
-                ></textarea>
-              </div>
-            </form>
-            <div className="text-center text-md-left mt-4">
-              <Link className="btn btn-primary" href="#">
-                Send
-              </Link>
-            </div>
-            <div className="status"></div>
-          </div>
-
+          <Form
+            className="col-md-9"
+            initialValue={{
+              name: "",
+              email: "",
+              subject: "",
+              message: "",
+            }}
+            onSubmit={handleSubmit}
+          >
+            <FormField
+              type="text"
+              name="name"
+              label="Your name"
+              placeholder="Alejandro"
+              autofocus
+              autocomplete
+            />
+            <FormField
+              type="email"
+              name="email"
+              label="Your email address"
+              placeholder="alejandro@gmail.com"
+              autocomplete
+            />
+            <FormField
+              type="text"
+              name="subject"
+              label="Subject"
+              placeholder="Classes"
+            />
+            <FormField
+              type="textarea"
+              name="message"
+              label="Your message"
+              rows={3}
+            />
+            <FormButton type="submit" variant="primary">
+              Send
+            </FormButton>
+          </Form>
           <div className="col-md-3 text-center">
             <ul className="list-unstyled mb-0">
               <li>
