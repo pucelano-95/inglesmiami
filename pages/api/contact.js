@@ -1,4 +1,11 @@
 export default function sendEmail(req, res) {
+  res.setHeader(
+    "Access-Control-Allow-Origin",
+    process.env.NEXT_PUBLIC_API_BASE_URL
+  );
+  res.setHeader("Access-Control-Allow-Methods", "POST");
+  res.setHeader("Access-Control-Allow-Headers", "Content-Type");
+
   const nodemailer = require("nodemailer");
   const transporter = nodemailer.createTransport({
     service: "gmail",
