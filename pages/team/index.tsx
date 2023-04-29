@@ -14,15 +14,15 @@ export default function Team() {
           className="img-fluid"
         />
         <p className="fs-5 text-muted">
-          Over 20 years of wide-ranging experience as teacher, translator, and
-          director at highly reputable Language institutions across China,
-          U.S.A. and Mexico with a focus on Business English Coaching and online
-          language learning. I am an enthusiastic, empathetic teacher and
-          manager with a penchant for encouraging and motivating English
-          language students to accomplish their desired learning objectives,
-          thereby, improving their quality of life through the conduit of
-          language. I am a team-player and able to get along well with people
-          from all nationalities and diverse backgrounds.
+          Más de 20 años de amplia experiencia como profesor, traductor y
+          director en instituciones de idiomas de gran reputación en China, EE.
+          UU. y México, con un enfoque en el coaching de inglés comercial y el
+          aprendizaje de idiomas en línea. Soy un maestro y gerente entusiasta y
+          empático con una inclinación por alentar y motivar a los estudiantes
+          de inglés para que logren sus objetivos de aprendizaje deseados y, por
+          lo tanto, mejoren su calidad de vida a través del conducto del idioma.
+          Soy un jugador de equipo y puedo llevarme bien con personas de todas
+          las nacionalidades y orígenes diversos.
         </p>
       </div>
     </Layout>

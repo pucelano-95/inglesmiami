@@ -4,24 +4,26 @@ export default function About() {
   return (
     <Layout>
       <div className="pricing-header p-5 mx-auto text-center">
-        <h1 className="display-4 fw-normal">About</h1>
+        <h1 className="display-4 fw-normal">Acerca de nosotros</h1>
         <p className="fs-5 text-muted">
-          Born to immigrant parents, Ralph Barrero knew he was going to be an
-          educator from a young age and it was a decision he has never
-          regretted. After 30 years as a teacher, academic director, and general
-          director, in the USA, Mexico, and China, he realized three fundamental
-          factors: English should be accessible to ALL, Learning is not lineal
-          (our needs and interests change and grow daily) and most importantly,
-          students should be treated with respect and honesty. Are you looking
-          for an exciting language program that integrates a wide variety of
-          content based on your needs, such as Netflix, Ted Talks, Coursera,
-          Music, and the news (If you are not prepared to speak about
-          “controversial” topics in a respectful manner, this may not be the
-          program for you.) Then begin your journey in this conversational
-          program by contacting us for further information. This program is
-          about more than just English. It is about building your skills as a
-          person through English conversation, with honest and valuable feedback
-          from trusted professionals
+          Nacido de padres inmigrantes, Ralph Barrero supo que iba a ser
+          educador desde muy joven y fue una decisión de la que nunca se ha
+          arrepentido. Después de 30 años como docente, director académico y
+          director general en Estados Unidos, México y China, se dio cuenta de
+          tres factores fundamentales: el inglés debe ser accesible para TODOS,
+          el aprendizaje no es lineal (nuestras necesidades e intereses cambian
+          y crecen a diario). y lo más importante, los estudiantes deben ser
+          tratados con respeto y honestidad. ¿Está buscando un programa de
+          idiomas emocionante que integre una amplia variedad de contenido según
+          sus necesidades, como Netflix, Ted Talks, Coursera, Música y las
+          noticias (si no está preparado para hablar sobre temas
+          "controvertidos" de manera respetuosa? manera, este puede no ser el
+          programa para usted). Entonces comience su viaje en este programa de
+          conversación poniéndose en contacto con nosotros para obtener más
+          información. Este programa es más que solo inglés. Se trata de
+          desarrollar tus habilidades como persona a través de conversaciones en
+          inglés, con comentarios honestos y valiosos de profesionales de
+          confianza.
         </p>
       </div>
     </Layout>

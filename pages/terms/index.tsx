@@ -4,68 +4,72 @@ export default function Terms() {
   return (
     <Layout>
       <div className="pricing-header p-5 mx-auto fs-5 text-muted">
-        <h1 className="display-4 fw-normal">Terms of service</h1>
+        <h1 className="display-4 fw-normal">Términos de servicio</h1>
         <p>
-          Welcome to our website! These Terms of Service govern your use of our
-          website, including any content, functionality, and services offered on
-          or through our website.
+          ¡Bienvenido/a a nuestro sitio web! Estos Términos de Servicio rigen su
+          uso de nuestro sitio web, incluyendo cualquier contenido,
+          funcionalidad y servicios ofrecidos en o a través de nuestro sitio
+          web.
         </p>
-        <h2>1. Services</h2>
+        <h2>1. Servicios</h2>
         <p>
-          Our website offers information and services related to English
-          language teaching in Miami, including access to English teachers in
-          the area.
+          Nuestro sitio web ofrece información y servicios relacionados con la
+          enseñanza del idioma inglés en Miami, incluido el acceso a profesores
+          de inglés en la zona.
         </p>
-        <h2>2. User Conduct</h2>
+        <h2>2. Conducta del usuario</h2>
         <p>
-          You agree to use our website only for lawful purposes and in a way
-          that does not infringe upon the rights of others or restrict or
-          inhibit anyone else&apos;s use or enjoyment of our website.
+          Usted acepta utilizar nuestro sitio web solo para fines legales y de
+          manera que no infrinja los derechos de otros ni restrinja o inhiba el
+          uso o disfrute de nuestro sitio web por parte de cualquier otra
+          persona.
         </p>
-        <h2>3. Intellectual Property</h2>
+        <h2>3. Propiedad intelectual</h2>
         <p>
-          The content and materials on our website, including but not limited to
-          text, graphics, logos, images, and software, are owned or licensed by
-          us and are protected by copyright and other intellectual property
-          laws. You may not copy, modify, distribute, display, transmit, or
-          create derivative works of any portion of our website without our
-          prior written consent.
+          El contenido y los materiales de nuestro sitio web, incluyendo pero no
+          limitado a texto, gráficos, logotipos, imágenes y software, son
+          propiedad de nosotros o están licenciados por nosotros y están
+          protegidos por derechos de autor y otras leyes de propiedad
+          intelectual. No puede copiar, modificar, distribuir, mostrar,
+          transmitir o crear obras derivadas de ninguna parte de nuestro sitio
+          web sin nuestro consentimiento previo por escrito.
         </p>
-        <h2>4. Privacy Policy</h2>
+        <h2>4. Política de privacidad</h2>
         <p>
-          We respect your privacy and are committed to protecting your personal
-          information. Please see our Privacy Policy for more information on how
-          we collect, use, and disclose your personal information.
+          Respetamos su privacidad y nos comprometemos a proteger su información
+          personal. Consulte nuestra Política de Privacidad para obtener más
+          información sobre cómo recopilamos, utilizamos y divulgamos su
+          información personal.
         </p>
-        <h2>5. Disclaimers</h2>
+        <h2>5. Renuncias</h2>
         <p>
-          Our website is provided on an &quot;as is&quot; and &quot;as available&quot; basis, and we
-          make no representations or warranties of any kind, express or implied,
-          about the completeness, accuracy, reliability, suitability, or
-          availability with respect to the website or the information, products,
-          services, or related graphics contained on the website.
+          Nuestro sitio web se proporciona "tal cual" y "según disponibilidad",
+          y no hacemos representaciones ni garantías de ningún tipo, expresas o
+          implícitas, sobre la integridad, exactitud, confiabilidad, idoneidad o
+          disponibilidad con respecto al sitio web o la información, productos,
+          servicios o gráficos relacionados contenidos en el sitio web.
         </p>
-        <h2>6. Limitation of Liability</h2>
+        <h2>6. Limitación de responsabilidad</h2>
         <p>
-          We will not be liable for any damages of any kind arising from the use
-          of our website, including but not limited to direct, indirect,
-          incidental, punitive, and consequential damages.
+          No seremos responsables de ningún daño de ningún tipo que surja del
+          uso de nuestro sitio web, incluidos, entre otros, daños directos,
+          indirectos, incidentales, punitivos y consecuentes.
         </p>
-        <h2>7. Governing Law</h2>
+        <h2>7. Ley aplicable</h2>
         <p>
-          These Terms shall be governed by and construed in accordance with the
-          laws of the State of Florida without giving effect to any principles
-          of conflicts of law.
+          Estos Términos se regirán e interpretarán de acuerdo con las leyes del
+          Estado de Florida, sin dar efecto a ningún principio de conflictos de
+          leyes.
         </p>
-        <h2>8. Changes to Terms</h2>
+        <h2>8. Cambios a los términos</h2>
         <p>
-          We reserve the right to modify these Terms at any time, without
-          notice, and in our sole discretion. Please review these Terms
-          periodically for any changes.
+          Nos reservamos el derecho de modificar estos Términos en cualquier
+          momento, sin previo aviso y a nuestra entera discreción. Por favor,
+          revise estos Términos periódicamente en busca de cambios.
         </p>
         <p>
-          If you have any questions or comments about these Terms, please
-          contact us at{" "}
+          Si tiene alguna duda acerca de estos términos, por favor contáctanos
+          en el{" "}
           <a href="mailto:support@inglesmiami.com">support@inglesmiami.com</a>.
         </p>
       </div>

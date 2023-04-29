@@ -4,27 +4,30 @@ export default function Privacy() {
   return (
     <Layout>
       <div className="pricing-header p-5 mx-auto text-center">
-        <h1 className="display-4 fw-normal">Privacy policy</h1>
+        <h1 className="display-4 fw-normal">Política de privacidad</h1>
         <p className="fs-5 text-muted">
-          At {process.env.NEXT_PUBLIC_TITLE}, we take your privacy seriously. We
-          understand that your personal information is important and we are
-          committed to protecting it. When you use our website to log in with
-          your Google account, we collect only the necessary information to
-          provide our services. This includes your name and email address. We do
-          not share or sell your personal information to any third parties. We
-          use your information only for the purposes of providing our English
-          language classes and to communicate with you about our services. We
-          may also use your information to improve our website and services, and
-          to provide you with a better user experience. We use industry-standard
-          security measures to protect your personal information, and we
-          regularly review and update our security protocols to ensure the
-          highest level of protection. If you have any questions or concerns
-          about our Privacy Policy, please don&apos;t hesitate to contact us at{" "}
+          En {process.env.NEXT_PUBLIC_TITLE}, nos tomamos tu privacidad en
+          serio. Entendemos que tu información personal es importante y nos
+          comprometemos a protegerla. Cuando utilizas nuestro sitio web para
+          iniciar sesión con tu cuenta de Google, recopilamos solo la
+          información necesaria para proporcionar nuestros servicios. Esto
+          incluye tu nombre y dirección de correo electrónico. No compartimos ni
+          vendemos tu información personal a terceros. Utilizamos tu información
+          solo con fines de proporcionar nuestras clases de inglés y
+          comunicarnos contigo sobre nuestros servicios. También podemos
+          utilizar tu información para mejorar nuestro sitio web y servicios, y
+          brindarte una mejor experiencia de usuario. Utilizamos medidas de
+          seguridad de estándar de la industria para proteger tu información
+          personal, y revisamos y actualizamos regularmente nuestros protocolos
+          de seguridad para garantizar el más alto nivel de protección. Si
+          tienes alguna pregunta o inquietud sobre nuestra Política de
+          privacidad, no dudes en contactarnos a través de{" "}
           <a href="mailto:privacy@inglesmiami.com">privacy@inglesmiami.com</a>.
-          We will do our best to assist you and provide any information you may
-          need. Thank you for choosing {process.env.NEXT_PUBLIC_TITLE} as your
-          English language learning partner. We are committed to protecting your
-          privacy and providing you with the best possible user experience.
+          Haremos nuestro mejor esfuerzo para ayudarte y proporcionarte
+          cualquier información que puedas necesitar. Gracias por elegir{" "}
+          {process.env.NEXT_PUBLIC_TITLE} como tu compañero de aprendizaje de
+          inglés. Nos comprometemos a proteger tu privacidad y brindarte la
+          mejor experiencia de usuario posible.
         </p>
       </div>
     </Layout>
