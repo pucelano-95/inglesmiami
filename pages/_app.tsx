@@ -10,10 +10,6 @@ const App = ({ Component, pageProps }: AppProps) => (
       integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
       crossOrigin="anonymous"
     />
-    <Script
-      src="https://kit.fontawesome.com/a076d05399.js"
-      crossOrigin="anonymous"
-    />
     <Component {...pageProps} />
   </>
 );

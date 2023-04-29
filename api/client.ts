@@ -6,9 +6,7 @@ interface ErrorResponse {
   data?: any;
 }
 
-const client: AxiosInstance = axios.create({
-  baseURL: process.env.NEXT_PUBLIC_API_BASE_URL,
-});
+const client: AxiosInstance = axios.create({});
 
 client.interceptors.response.use(
   (response: AxiosResponse) => response.data,
