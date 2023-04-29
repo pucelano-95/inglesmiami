@@ -43,7 +43,7 @@ export default function Terms() {
         </p>
         <h2>5. Renuncias</h2>
         <p>
-          Nuestro sitio web se proporciona "tal cual" y "según disponibilidad",
+          Nuestro sitio web se proporciona &quot;tal cual&quot; y &quot;según disponibilidad&quot;,
           y no hacemos representaciones ni garantías de ningún tipo, expresas o
           implícitas, sobre la integridad, exactitud, confiabilidad, idoneidad o
           disponibilidad con respecto al sitio web o la información, productos,
