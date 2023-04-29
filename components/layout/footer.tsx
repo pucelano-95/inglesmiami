@@ -13,14 +13,14 @@ export default function Footer() {
           </small>
         </div>
         <div className="col-6 col-md">
-          <h5>About</h5>
+          <h5>Acerca</h5>
           <ul className="list-unstyled text-small">
             <li className="mb-1">
               <Link
                 className="link-secondary text-decoration-none"
                 href="/team"
               >
-                Team
+                Equipo
               </Link>
             </li>
             <li className="mb-1">
@@ -28,7 +28,7 @@ export default function Footer() {
                 className="link-secondary text-decoration-none"
                 href="/locations"
               >
-                Locations
+                Localización
               </Link>
             </li>
             <li className="mb-1">
@@ -36,7 +36,7 @@ export default function Footer() {
                 className="link-secondary text-decoration-none"
                 href="/privacy"
               >
-                Privacy
+                Privacidad
               </Link>
             </li>
             <li className="mb-1">
@@ -44,7 +44,7 @@ export default function Footer() {
                 className="link-secondary text-decoration-none"
                 href="/terms"
               >
-                Terms
+                Términos
               </Link>
             </li>
           </ul>

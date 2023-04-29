@@ -23,12 +23,12 @@ const Form: FC<FormProps> = ({
   };
 
   return (
-    <div className="col-md-9">
+    <div className="col-md-7 col-lg-8">
       <FormContext.Provider
         value={{ formValues, setFormValue, handleChange, validate }}
       >
         <form onSubmit={handleSubmit(handleFormSubmit)} {...props}>
-          {children}
+          <div className="row g-3">{children}</div>
         </form>
       </FormContext.Provider>
     </div>

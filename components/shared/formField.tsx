@@ -9,6 +9,7 @@ interface FormFieldProps {
   placeholder?: string;
   label: string;
   rows?: number;
+  required?: boolean;
 }
 
 function FormField({
@@ -19,7 +20,7 @@ function FormField({
   label,
   ...props
 }: FormFieldProps) {
-  const { formValue, handleChange } = useContext(FormContext);
+  const { formValues, setFormValue } = useContext(FormContext);
   const inputRef = useRef<HTMLInputElement>(null);
   useEffect(() => {
     if (autofocus) {
@@ -27,36 +28,46 @@ function FormField({
     }
   }, [autofocus]);
 
+  const value = formValues[name] || ""; // Default value for textarea
+
+  const handleChange = (
+    e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>
+  ) => {
+    const newValue = e.target.value;
+    setFormValue((prevFormValues: any) => ({
+      ...prevFormValues,
+      [name]: newValue,
+    }));
+  };
+
   return (
-    <div className={props.type === "checkbox" ? "" : "form-group mt-4"}>
-      <label
-        htmlFor={name}
-        className={props.type === "checkbox" ? "form-check-label" : ""}
-      >
-        {label}
-        {props.type !== "textarea" ? (
-          <input
-            ref={inputRef}
-            className={
-              props.type === "checkbox" ? "form-check-input" : "form-control"
-            }
-            autoComplete={autocomplete ? "on" : "off"}
-            onChange={handleChange}
-            value={props.type === "file" ? undefined : formValue[name]}
-            placeholder={placeholder}
-            {...props}
-          />
-        ) : (
-          <textarea
-            className="form-control"
-            onChange={handleChange}
-            value={formValue[name]}
-            placeholder={name}
-            {...props}
-          />
-        )}
-      </label>
-    </div>
+    <label
+      htmlFor={name}
+      className={props.type === "checkbox" ? "form-check-label" : "form-label"}
+    >
+      {label}
+      {props.type !== "textarea" ? (
+        <input
+          ref={inputRef}
+          className={
+            props.type === "checkbox" ? "form-check-input" : "form-control"
+          }
+          autoComplete={autocomplete ? "on" : "off"}
+          onChange={handleChange}
+          value={props.type === "file" ? undefined : value}
+          placeholder={placeholder}
+          {...props}
+        />
+      ) : (
+        <textarea
+          className="form-control"
+          onChange={handleChange}
+          value={value}
+          placeholder={placeholder}
+          {...props}
+        />
+      )}
+    </label>
   );
 }
 

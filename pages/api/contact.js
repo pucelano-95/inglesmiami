@@ -1,6 +1,4 @@
 export default function (req, res) {
-  require("dotenv").config();
-
   const nodemailer = require("nodemailer");
   const transporter = nodemailer.createTransport({
     service: "gmail",
@@ -19,13 +17,13 @@ export default function (req, res) {
 
   transporter.sendMail(mailData, function (err, info) {
     if (err) {
-      res.send({
-        message: "error sending email",
+      res.status(500).send({
+        message: err,
       });
+      return;
     }
-  });
-
-  res.send({
-    data: "success",
+    res.send({
+      data: "success",
+    });
   });
 }

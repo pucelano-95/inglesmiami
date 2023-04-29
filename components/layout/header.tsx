@@ -6,9 +6,9 @@ type Props = {
 
 export default function Header({ title }: Props) {
   return (
-    <nav className="navbar navbar-expand-md navbar-dark fixed-top bg-dark mb-4">
+    <nav className="navbar navbar-expand-md navbar-dark fixed-top bg-turquoise mb-4">
       <div className="container-fluid">
-        <Link className="navbar-brand" href="/">
+        <Link className="navbar-brand text-dark" href="/">
           {title}
         </Link>
         <button
@@ -25,30 +25,25 @@ export default function Header({ title }: Props) {
         <div className="collapse navbar-collapse" id="navbarSupportedContent">
           <ul className="navbar-nav me-auto mb-2 mb-lg-0">
             <li className="nav-item">
-              <Link className="nav-link active" aria-current="page" href="/">
-                Home
+              <Link className="nav-link text-dark" href="/about">
+                Acerca de nosotros
               </Link>
             </li>
             <li className="nav-item">
-              <Link className="nav-link" href="/about">
-                About
+              <Link className="nav-link text-dark" href="/services">
+                Precios
               </Link>
             </li>
             <li className="nav-item">
-              <Link className="nav-link" href="/#services">
-                Services
+              <Link className="nav-link text-dark" href="/contact">
+                Contacto
               </Link>
             </li>
-            <li className="nav-item">
-              <Link className="nav-link" href="/contact">
-                Contact
-              </Link>
-            </li>
-            <li className="nav-item">
-              <Link className="nav-link" href="/login">
+            {/* <li className="nav-item">
+              <Link className="nav-link text-dark" href="/login">
                 Log in
               </Link>
-            </li>
+            </li> */}
           </ul>
         </div>
       </div>

@@ -1,12 +1,10 @@
 import Layout from "@/components/layout/layout";
-import Pricing from "@/components/main/pricing";
-import Services from "@/components/main/services";
+import Presentation from "@/components/main/presentation";
 
 export default function Home() {
   return (
     <Layout>
-      <Pricing />
-      <Services />
+      <Presentation />
     </Layout>
   );
 }
