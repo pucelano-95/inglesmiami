@@ -1,6 +1,8 @@
 const axios = require("axios");
 
-const client = axios.create({});
+const client = axios.create({
+  baseURL: process.env.NEXT_PUBLIC_API_BASE_URL,
+});
 
 client.interceptors.response.use(
   (response) => response.data,
