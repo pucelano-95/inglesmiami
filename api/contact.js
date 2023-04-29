@@ -1,8 +1,10 @@
-import client from "./client";
+const client = require("./client");
 
 const contactBaseUrl = "/api";
 
-export const sendEmail = (data: any) => {
+const sendEmail = (data) => {
   const url = `${contactBaseUrl}/contact`;
   return client.post(url, data);
 };
+
+module.exports = sendEmail;
