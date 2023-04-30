@@ -1,15 +1,9 @@
 import { NextApiRequest, NextApiResponse } from "next";
-import NextCors from "nextjs-cors";
 
 export default async function sendEmail(
   req: NextApiRequest,
   res: NextApiResponse
 ) {
-  await NextCors(req, res, {
-    methods: ["GET", "HEAD", "PUT", "PATCH", "POST", "DELETE"],
-    origin: "*",
-    optionsSuccessStatus: 200, // some legacy browsers (IE11, various SmartTVs) choke on 204
-  });
 
   const nodemailer = require("nodemailer");
   const transporter = nodemailer.createTransport({
