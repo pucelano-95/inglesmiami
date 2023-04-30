@@ -25,3 +25,8 @@ export const keyToObjectValidate = (formValue: any) => {
   }
   return formFunction;
 };
+
+export const MESSAGE_SUCCESS = "Email enviado satisfactoriamente! Nos pondremos en contacto cuanto antes";
+export const MESSAGE_ERROR = "Disculpa, ha habido un error enviando el email. Por favor contacta con support@inglesmiami.com para que podamos ayudarte";
+
+export const API_MESSAGE_SUCCESS = "success";

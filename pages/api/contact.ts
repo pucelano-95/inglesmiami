@@ -1,3 +1,4 @@
+import { API_MESSAGE_SUCCESS } from "@/utils/utils";
 import { NextApiRequest, NextApiResponse } from "next";
 
 export default async function sendEmail(
@@ -29,7 +30,7 @@ export default async function sendEmail(
       return;
     }
     res.send({
-      data: "success",
+      data: API_MESSAGE_SUCCESS,
     });
   });
 }
