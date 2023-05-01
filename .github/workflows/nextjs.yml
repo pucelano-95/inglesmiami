@@ -93,12 +93,12 @@ jobs:
       - name: Deploy to GitHub Pages
         id: deployment
         env:
-          NEXT_PUBLIC_TITLE: ${{ env.NEXT_PUBLIC_TITLE }}
-          NODE_ENV: ${{ env.NODE_ENV }}
-          NEXT_PUBLIC_API_BASE_URL: ${{ env.NEXT_PUBLIC_API_BASE_URL }}
-          EMAIL_USERNAME: ${{ env.EMAIL_USERNAME }}
+          NEXT_PUBLIC_TITLE: ${{ vars.NEXT_PUBLIC_TITLE }}
+          NODE_ENV: ${{ vars.NODE_ENV }}
+          NEXT_PUBLIC_API_BASE_URL: ${{ vars.NEXT_PUBLIC_API_BASE_URL }}
+          EMAIL_USERNAME: ${{ vars.EMAIL_USERNAME }}
           EMAIL_PASSWORD: ${{ secrets.EMAIL_PASSWORD }}
-          TO_EMAIL: ${{ env.TO_EMAIL }}
+          TO_EMAIL: ${{ vars.TO_EMAIL }}
         uses: actions/deploy-pages@v2
 
     
