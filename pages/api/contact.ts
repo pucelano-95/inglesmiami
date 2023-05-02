@@ -5,7 +5,6 @@ export default async function sendEmail(
   req: NextApiRequest,
   res: NextApiResponse
 ) {
-
   const nodemailer = require("nodemailer");
   const transporter = nodemailer.createTransport({
     service: "gmail",
@@ -24,6 +23,7 @@ export default async function sendEmail(
 
   transporter.sendMail(mailData, function (err: any, info: any) {
     if (err) {
+      console.error(err);
       res.status(500).send({
         message: err,
       });
