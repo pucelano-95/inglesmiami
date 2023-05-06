@@ -2,30 +2,31 @@ import Layout from "@/components/layout/layout";
 
 export default function About() {
   return (
-    <Layout>
-      <div className="pricing-header p-5 mx-auto text-center">
-        <h1 className="display-4 fw-normal">Acerca de nosotros</h1>
-        <p className="fs-5 text-muted">
-          Nacido de padres inmigrantes, Ralph Barrero supo que iba a ser
-          pro desde muy joven y fue una decisión de la que nunca se ha
-          arrepentido. Después de 30 años como docente, director académico y
-          director general en Estados Unidos, México y China, se dio cuenta de
-          tres factores fundamentales: el inglés debe ser accesible para TODOS,
-          el aprendizaje no es lineal (nuestras necesidades e intereses cambian
-          y crecen a diario). y lo más importante, los estudiantes deben ser
-          tratados con respeto y honestidad. ¿Está buscando un programa de
-          idiomas emocionante que integre una amplia variedad de contenido según
-          sus necesidades, como Netflix, Ted Talks, Coursera, Música y las
-          noticias (si no está preparado para hablar sobre temas
-          &quot;controvertidos&quot; de manera respetuosa? manera, este puede no ser el
-          programa para usted). Entonces comience su viaje en este programa de
-          conversación poniéndose en contacto con nosotros para obtener más
-          información. Este programa es más que solo inglés. Se trata de
-          desarrollar tus habilidades como persona a través de conversaciones en
-          inglés, con comentarios honestos y valiosos de profesionales de
-          confianza.
-        </p>
-      </div>
+    <Layout className="p-5 mx-auto text-center">
+      <h1 className="display-4 fw-normal">Acerca de nosotros</h1>
+      <p className="fs-5 text-dark">
+        Bienvenidos a {process.env.NEXT_PUBLIC_TITLE}, somos una compañía
+        dedicada a enseñar inglés a personas de habla hispana de América Latina
+        en Miami. Nuestra misión es ayudar a nuestros estudiantes a alcanzar sus
+        metas de aprendizaje del idioma inglés, ofreciéndoles una experiencia de
+        aprendizaje única y personalizada. En InglesMiami, creemos que el
+        aprendizaje del idioma inglés es fundamental en el mundo globalizado
+        actual y es por eso que nos dedicamos a proporcionar un ambiente de
+        aprendizaje enriquecedor para nuestros estudiantes. Nuestro equipo de
+        profesionales altamente capacitados y experimentados está comprometido
+        en ayudar a nuestros estudiantes a mejorar su nivel de inglés y alcanzar
+        la fluidez deseada. Además de nuestras clases presenciales, también
+        ofrecemos cursos en línea que permiten a nuestros estudiantes acceder a
+        nuestro contenido de alta calidad desde cualquier parte del mundo. Nos
+        aseguramos de que nuestros cursos en línea tengan la misma calidad y
+        atención al detalle que nuestras clases presenciales, y estamos
+        constantemente buscando formas innovadoras de mejorar nuestro método de
+        enseñanza. En {process.env.NEXT_PUBLIC_TITLE}, nos enorgullece ayudar a
+        nuestros estudiantes a alcanzar sus metas de aprendizaje de inglés y
+        estamos comprometidos en brindarles la mejor experiencia educativa
+        posible. Contáctanos hoy para obtener más información sobre nuestros
+        cursos y cómo podemos ayudarte a mejorar tu inglés.
+      </p>
     </Layout>
   );
 }

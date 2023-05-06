@@ -11,7 +11,6 @@ import {
   MESSAGE_ERROR,
   MESSAGE_SUCCESS,
 } from "@/utils/utils";
-import Link from "next/link";
 
 export default function Contact() {
   const [message, setMessage] = useState<string | null>(null);
@@ -31,7 +30,7 @@ export default function Contact() {
   return (
     <Layout>
       <section className="mb-4">
-        <h2 className="h1-responsive font-weight-bold text-center mt-5">
+        <h2 className="h1-responsive font-weight-bold display-4 fw-normal text-center">
           Contactanos
         </h2>
         <p className="text-center w-responsive mx-auto mb-4">
@@ -120,20 +119,7 @@ export default function Contact() {
                   >
                     <path d="M48 64C21.5 64 0 85.5 0 112c0 15.1 7.1 29.3 19.2 38.4L236.8 313.6c11.4 8.5 27 8.5 38.4 0L492.8 150.4c12.1-9.1 19.2-23.3 19.2-38.4c0-26.5-21.5-48-48-48H48zM0 176V384c0 35.3 28.7 64 64 64H448c35.3 0 64-28.7 64-64V176L294.4 339.2c-22.8 17.1-54 17.1-76.8 0L0 176z" />
                   </svg>
-                  <p>ralph.barrero@inglesmiami.com</p>
-                </li>
-                <li>
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    viewBox="0 0 448 512"
-                    width="16"
-                    height="16"
-                  >
-                    <path d="M152 24c0-13.3-10.7-24-24-24s-24 10.7-24 24V64H64C28.7 64 0 92.7 0 128v16 48V448c0 35.3 28.7 64 64 64H384c35.3 0 64-28.7 64-64V192 144 128c0-35.3-28.7-64-64-64H344V24c0-13.3-10.7-24-24-24s-24 10.7-24 24V64H152V24zM48 192H400V448c0 8.8-7.2 16-16 16H64c-8.8 0-16-7.2-16-16V192z" />
-                  </svg>
-                  <Link href="https://calendly.com/ralph-barrero-inglesmiami/clases" target="_blank" rel="noopener noreferrer">
-                    <p>Reserva una clase con calendly pinchando aqui</p>
-                  </Link>
+                  <p>support@inglesmiami.com</p>
                 </li>
               </ul>
             </div>
@@ -148,13 +134,15 @@ export default function Contact() {
                 alt="yoda"
                 width={1000}
                 height={500}
+                className="img-fluid"
               />
             ) : (
               <Image
-                src="/oop-i-am-sorry.jpeg"
+                src="/oop-i-am-sorry.png"
                 alt="sorry"
                 width={1000}
                 height={500}
+                className="img-fluid"
               />
             )}
           </p>

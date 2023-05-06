@@ -4,10 +4,8 @@ import Link from "next/link";
 export default function Services() {
   return (
     <Layout>
-      <div
-        className="mt-5 pt-5 row row-cols-1 row-cols-md-3 mb-3 text-center"
-        id="services"
-      >
+      <h1 className="display-4 fw-normal text-center">Precios</h1>
+      <div className="mt-5 row row-cols-1 row-cols-md-3 mb-3 text-center">
         <div className="col">
           <div className="card mb-4 rounded-3 shadow-sm">
             <div className="card-header py-3">
@@ -15,16 +13,16 @@ export default function Services() {
             </div>
             <div className="card-body">
               <h1 className="card-title pricing-card-title">
-                $10<small className="text-muted fw-light">/hora</small>
+                $10<small className="text-dark fw-light">/hora</small>
               </h1>
               <ul className="list-unstyled mt-3 mb-4">
                 <li>Grupos de 5-8 personas</li>
               </ul>
               <Link
                 className="w-100 btn btn-lg btn-outline-primary"
-                href="/contact"
+                href="/booking"
               >
-                Contáctanos
+                Reserva una clase
               </Link>
             </div>
           </div>
@@ -36,16 +34,16 @@ export default function Services() {
             </div>
             <div className="card-body">
               <h1 className="card-title pricing-card-title">
-                $20<small className="text-muted fw-light">/hora</small>
+                $20<small className="text-dark fw-light">/hora</small>
               </h1>
               <ul className="list-unstyled mt-3 mb-4">
                 <li>Grupos de 2-4 personas</li>
               </ul>
               <Link
                 className="w-100 btn btn-lg btn-outline-primary"
-                href="/contact"
+                href="/booking"
               >
-                Contáctanos
+                Reserva una clase
               </Link>
             </div>
           </div>
@@ -57,7 +55,7 @@ export default function Services() {
             </div>
             <div className="card-body">
               <h1 className="card-title pricing-card-title">
-                $30<small className="text-muted fw-light">/hora</small>
+                $35<small className="text-dark fw-light">/hora</small>
               </h1>
               <ul className="list-unstyled mt-3 mb-4">
                 <li>Clase privada en persona u online</li>
