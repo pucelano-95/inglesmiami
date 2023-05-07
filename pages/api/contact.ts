@@ -38,13 +38,14 @@ export default async function sendEmail(
 
   transporter.sendMail(mailData, function (err: any, info: any) {
     if (err) {
+      console.error("Error: ", err)
       res.status(500).send({
         message: err,
       });
       res.end();
       return;
     }
-    res.send({
+    res.status(200).send({
       data: API_MESSAGE_SUCCESS,
     });
     res.end();
