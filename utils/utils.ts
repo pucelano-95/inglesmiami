@@ -26,7 +26,10 @@ export const keyToObjectValidate = (formValue: any) => {
   return formFunction;
 };
 
-export const MESSAGE_SUCCESS = "Email enviado satisfactoriamente! Nos pondremos en contacto cuanto antes";
-export const MESSAGE_ERROR = "Disculpa, ha habido un error enviando el email. Por favor contacta con support@inglesmiami.com para que podamos ayudarte";
+export const MESSAGE_SUCCESS: string =
+  "Email enviado satisfactoriamente! Nos pondremos en contacto cuanto antes";
+export const MESSAGE_ERROR: string =
+  "Disculpa, ha habido un error enviando el email. Por favor contacta con support@inglesmiami.com para que podamos ayudarte";
 
-export const API_MESSAGE_SUCCESS = "success";
+export const API_MESSAGE_SUCCESS: string = "success";
+export const PARAMETER_STORE_PREFIX = `/amplify/${process.env.APP_ID}/${process.env.BACKEND_NAME}`;
