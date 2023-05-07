@@ -126,8 +126,8 @@ export default function Contact() {
           </div>
         )}
         {message && (
-          <p className="text-center w-responsive mx-auto mb-4">
-            {message}
+          <div className="text-center w-responsive mx-auto mb-4">
+            <p>{message}</p>
             {message == MESSAGE_SUCCESS ? (
               <Image
                 src="/teach-you-yoda.gif"
@@ -135,6 +135,7 @@ export default function Contact() {
                 width={1000}
                 height={500}
                 className="img-fluid"
+                style={{ width: "60%", height: "auto" }}
               />
             ) : (
               <Image
@@ -143,9 +144,10 @@ export default function Contact() {
                 width={1000}
                 height={500}
                 className="img-fluid"
+                style={{ width: "45%", height: "auto" }}
               />
             )}
-          </p>
+          </div>
         )}
       </section>
     </Layout>

@@ -10,7 +10,8 @@ export default function Team() {
         alt="ralph"
         width={500}
         height={250}
-        className="img-fluid"
+        className="img-fluid mb-4"
+        style={{ width: "30%", height: "auto" }}
       />
       <p className="fs-5 text-dark">
         Más de 20 años de amplia experiencia como profesor, traductor y director
