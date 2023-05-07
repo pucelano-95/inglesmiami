@@ -35,10 +35,11 @@ export default async function sendEmail(
     subject: req.body.subject,
     text: req.body.message + " | Sent from: " + req.body.name,
   };
+  console.info(mailData);
 
   transporter.sendMail(mailData, function (err: any, info: any) {
     if (err) {
-      console.error("Error: ", err)
+      console.error("Error:", err);
       res.status(500).send({
         message: err,
       });
