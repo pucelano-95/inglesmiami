@@ -27,6 +27,7 @@ export default async function sendEmail(
             refreshToken: process.env.EMAIL_CLIENT_REFRESH_TOKEN,
           },
         };
+  console.info("transport:", transport);
   const transporter = nodemailer.createTransport(transport);
 
   const mailData = {
@@ -35,7 +36,7 @@ export default async function sendEmail(
     subject: req.body.subject,
     text: req.body.message + " | Sent from: " + req.body.name,
   };
-  console.info(mailData);
+  console.info("mailData:", mailData);
 
   transporter.sendMail(mailData, function (err: any, info: any) {
     if (err) {
