@@ -1,7 +1,7 @@
 import Layout from "@/components/layout/layout";
 import Link from "next/link";
 
-export default function Services() {
+export default function Prices() {
   return (
     <Layout>
       <h1 className="display-4 fw-normal text-center">Precios</h1>

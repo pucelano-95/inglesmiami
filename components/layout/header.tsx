@@ -30,8 +30,36 @@ export default function Header({ title }: Props) {
                   Acerca de nosotros
                 </Link>
               </li>
+              <li className="nav-item dropdown">
+                <button
+                  className="btn dropdown-toggle text-dark"
+                  id="dropdownMenuLink"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                  type="button"
+                >
+                  Servicios
+                </button>
+                <div
+                  className="dropdown-menu"
+                  aria-labelledby="dropdownMenuLink"
+                >
+                  <Link
+                    className="dropdown-item nav-link text-dark"
+                    href="/services/test"
+                  >
+                    Prueba de nivel
+                  </Link>
+                  <Link
+                    className="dropdown-item nav-link text-dark"
+                    href="/services/classes"
+                  >
+                    Clases
+                  </Link>
+                </div>
+              </li>
               <li className="nav-item">
-                <Link className="nav-link text-dark" href="/services">
+                <Link className="nav-link text-dark" href="/prices">
                   Precios
                 </Link>
               </li>

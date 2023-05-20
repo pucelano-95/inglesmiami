@@ -131,7 +131,7 @@ export default function Contact() {
             {message == MESSAGE_SUCCESS ? (
               <Image
                 src="/teach-you-yoda.gif"
-                alt="yoda"
+                alt="teach you yoda"
                 width={1000}
                 height={500}
                 className="img-fluid"
@@ -140,7 +140,7 @@ export default function Contact() {
             ) : (
               <Image
                 src="/oop-i-am-sorry.png"
-                alt="sorry"
+                alt="i am sorry"
                 width={1000}
                 height={500}
                 className="img-fluid"
