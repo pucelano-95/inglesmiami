@@ -1,10 +1,13 @@
-import Layout from "@/components/layout/layout";
+import Footer from "@/components/layout/footer";
+import Header from "@/components/layout/header";
 import Presentation from "@/components/main/presentation";
 
 export default function Home() {
   return (
-    <Layout>
+    <div>
+      <Header title={process.env.NEXT_PUBLIC_TITLE} />
       <Presentation />
-    </Layout>
+      <Footer />
+    </div>
   );
 }

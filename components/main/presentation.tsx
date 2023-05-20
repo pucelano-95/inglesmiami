@@ -2,18 +2,18 @@ import Image from "next/image";
 
 export default function Presentation() {
   return (
-    <div className="p-5 mx-auto text-center">
+    <div className="text-center bg-image background-image">
       <Image
         src="/inglesmiamilogo.png"
         alt="inglesmiamilogo"
         width={400}
         height={400}
         className="img-fluid"
-        style={{ width: "80%", height: "auto" }}
+        style={{ width: "40%", height: "auto" }}
       />
-      <p className="fs-5 text-dark">
+      <h1 className="fs-100 text-white">
         Conectando personas, empoderando la comunicacion
-      </p>
+      </h1>
     </div>
   );
 }

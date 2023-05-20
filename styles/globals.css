@@ -9,75 +9,13 @@
 .bg-turquoise {
   background-color: turquoise;
 }
-.form-login {
-  max-width: 330px;
-  margin: auto;
-}
-.form-login .checkbox {
-  font-weight: 400;
-}
 
-.form-login .form-floating:focus-within {
-  z-index: 2;
-}
-
-.form-login input[type="email"] {
-  margin-bottom: -1px;
-  border-bottom-right-radius: 0;
-  border-bottom-left-radius: 0;
-}
-
-.form-login input[type="password"] {
-  margin-bottom: 10px;
-  border-top-left-radius: 0;
-  border-top-right-radius: 0;
-}
-
-@import url("https://fonts.googleapis.com/css2?family=Calibri&display=swap");
-.magic-effect {
-  font-family: "Calibri", sans-serif;
-  font-size: 5rem;
-  display: inline-block;
-  color: transparent;
-  text-shadow: 0px 0px 5px rgba(0, 0, 0, 0.5);
-  transform-style: preserve-3d;
-}
-
-.magic-effect:before {
-  content: attr(data-text);
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  color: turquoise;
-  background-image: linear-gradient(transparent 70%, turquoise 50%);
-  -webkit-background-clip: text;
-  background-clip: text;
-  z-index: 2;
-  transform: rotateX(40deg);
-}
-
-.magic-effect:after {
-  content: attr(data-text);
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  opacity: 0.4;
-  color: turquoise;
-  transform: rotateX(80deg) scaleY(-2) translateZ(-1em);
-  z-index: 1;
-}
-
-@media (max-width: 768px) {
-  .magic-effect {
-    font-size: 3rem;
-  }
-}
-
-@media (max-width: 400px) {
-  .magic-effect {
-    font-size: 1rem;
-  }
+.background-image {
+  background: linear-gradient(
+      201deg,
+      rgba(85, 82, 82, 0.462) 0%,
+      rgb(55, 51, 51) 100%
+    ),
+    url("/profesores-ingles-online.jpeg");
+  height: 100vh;
 }
