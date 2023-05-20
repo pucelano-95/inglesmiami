@@ -8,11 +8,6 @@ export default function Footer() {
       </p>
       <ul className="nav col-md-4 justify-content-end">
         <li className="nav-item">
-          <Link className="nav-link px-2 text-dark" href="/team">
-            Equipo
-          </Link>
-        </li>
-        <li className="nav-item">
           <Link className="nav-link px-2 text-dark" href="/locations">
             Localización
           </Link>

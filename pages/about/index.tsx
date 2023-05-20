@@ -7,25 +7,18 @@ export default function About() {
       <p className="fs-5 text-dark">
         Bienvenidos a {process.env.NEXT_PUBLIC_TITLE}, somos una compañía
         dedicada a enseñar inglés a personas de habla hispana de América Latina
-        en Miami. Nuestra misión es ayudar a nuestros estudiantes a alcanzar sus
-        metas de aprendizaje del idioma inglés, ofreciéndoles una experiencia de
-        aprendizaje única y personalizada. En InglesMiami, creemos que el
-        aprendizaje del idioma inglés es fundamental en el mundo globalizado
-        actual y es por eso que nos dedicamos a proporcionar un ambiente de
-        aprendizaje enriquecedor para nuestros estudiantes. Nuestro equipo de
-        profesionales altamente capacitados y experimentados está comprometido
-        en ayudar a nuestros estudiantes a mejorar su nivel de inglés y alcanzar
-        la fluidez deseada. Además de nuestras clases presenciales, también
-        ofrecemos cursos en línea que permiten a nuestros estudiantes acceder a
-        nuestro contenido de alta calidad desde cualquier parte del mundo. Nos
-        aseguramos de que nuestros cursos en línea tengan la misma calidad y
-        atención al detalle que nuestras clases presenciales, y estamos
-        constantemente buscando formas innovadoras de mejorar nuestro método de
-        enseñanza. En {process.env.NEXT_PUBLIC_TITLE}, nos enorgullece ayudar a
-        nuestros estudiantes a alcanzar sus metas de aprendizaje de inglés y
-        estamos comprometidos en brindarles la mejor experiencia educativa
-        posible. Contáctanos hoy para obtener más información sobre nuestros
-        cursos y cómo podemos ayudarte a mejorar tu inglés.
+        en Miami. Llevamos más de 30 años de experiencia apoyando a individuos,
+        migrantes y empresas, lograr sus metas profesionales, académicas y
+        personales, atreves del idioma. En estos 30 años en Norte América,
+        Latino América y Asia, hemos aprendido que el aprendizaje del idioma
+        debe ser CONVERSACIONAL y accesible para toda persona que quiera
+        superarse. Nuestra misión es empoderar a nuestros alumnos a desarrollar
+        su potencial máxima, convirtiéndonos en líder mundial en servicios del
+        idioma. Nuestro método es 100% conversacional y el contenido de las
+        sesiones se adapta, y crece, según tanto sus necesidades, como a los
+        cambios sociales. Nuestras lecciones son una mezcla perfecta de
+        profesionalismo con diversión, utilizando grupos pequeños, que se
+        adaptan a cualquier presupuesto.
       </p>
     </Layout>
   );
