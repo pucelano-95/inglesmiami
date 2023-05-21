@@ -1,4 +1,5 @@
 import Layout from "@/components/layout/layout";
+import Link from "next/link";
 
 export default function Privacy() {
   return (
@@ -18,9 +19,11 @@ export default function Privacy() {
         seguridad para garantizar el más alto nivel de protección. Si tienes
         alguna pregunta o inquietud sobre nuestra Política de privacidad, no
         dudes en contactarnos a través de{" "}
-        <a href="mailto:privacy@inglesmiami.com">privacy@inglesmiami.com</a>.
-        Haremos nuestro mejor esfuerzo para ayudarte y proporcionarte cualquier
-        información que puedas necesitar. Gracias por elegir{" "}
+        <Link href="mailto:privacy@inglesmiami.com">
+          privacy@inglesmiami.com
+        </Link>
+        . Haremos nuestro mejor esfuerzo para ayudarte y proporcionarte
+        cualquier información que puedas necesitar. Gracias por elegir{" "}
         {process.env.NEXT_PUBLIC_TITLE} como tu compañero de aprendizaje de
         inglés. Nos comprometemos a proteger tu privacidad y brindarte la mejor
         experiencia de usuario posible.

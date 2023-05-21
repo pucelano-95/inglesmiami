@@ -1,5 +1,6 @@
 import Layout from "@/components/layout/layout";
 import Image from "next/image";
+import Link from "next/link";
 
 export default function Classes() {
   return (
@@ -33,9 +34,9 @@ export default function Classes() {
                     Mejora tu fluidez y confianza hablando en inglés con
                     nuestros profesores nativos.
                   </p>
-                  <a href="/contact" className="btn btn-primary">
+                  <Link href="/contact" className="btn btn-primary">
                     Saber más
-                  </a>
+                  </Link>
                 </div>
               </div>
             </div>
@@ -55,9 +56,9 @@ export default function Classes() {
                     Domina las reglas gramaticales del inglés y mejora tu
                     precisión en la escritura.
                   </p>
-                  <a href="/contact" className="btn btn-primary">
+                  <Link href="/contact" className="btn btn-primary">
                     Saber más
-                  </a>
+                  </Link>
                 </div>
               </div>
             </div>
@@ -77,9 +78,9 @@ export default function Classes() {
                     Prepárate para los exámenes de certificación de inglés con
                     nuestras clases especializadas.
                   </p>
-                  <a href="/contact" className="btn btn-primary">
+                  <Link href="/contact" className="btn btn-primary">
                     Saber más
-                  </a>
+                  </Link>
                 </div>
               </div>
             </div>

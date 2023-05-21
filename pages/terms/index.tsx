@@ -1,4 +1,5 @@
 import Layout from "@/components/layout/layout";
+import Link from "next/link";
 
 export default function Terms() {
   return (
@@ -67,7 +68,7 @@ export default function Terms() {
       </p>
       <p>
         Si tiene alguna duda acerca de estos términos, por favor contáctanos en
-        el <a href="mailto:support@inglesmiami.com">support@inglesmiami.com</a>.
+        el <Link href="mailto:support@inglesmiami.com">support@inglesmiami.com</Link>.
       </p>
     </Layout>
   );
