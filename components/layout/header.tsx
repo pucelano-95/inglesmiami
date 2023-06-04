@@ -2,11 +2,14 @@ import Link from "next/link";
 
 type Props = {
   title: string | undefined;
+  className?: string;
 };
 
-export default function Header({ title }: Props) {
+export default function Header({ title, className = "" }: Props) {
   return (
-    <header className="d-flex flex-wrap justify-content-center py-3 mb-4">
+    <header
+      className={`d-flex flex-wrap justify-content-center py-3 mb-4 ${className}`}
+    >
       <nav className="navbar navbar-expand-md navbar-dark fixed-top bg-turquoise mb-4">
         <div className="container-fluid">
           <Link className="navbar-brand text-dark" href="/">

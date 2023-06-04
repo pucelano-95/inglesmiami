@@ -4,7 +4,9 @@ import Link from "next/link";
 export default function Privacy() {
   return (
     <Layout className="p-5 mx-auto text-center">
-      <h1 className="display-4 fw-normal">Política de privacidad</h1>
+      <h1 className="display-4 fw-normal delauney-font">
+        Politica de privacidad
+      </h1>
       <p className="fs-5 text-dark">
         En {process.env.NEXT_PUBLIC_TITLE}, nos tomamos tu privacidad en serio.
         Entendemos que tu información personal es importante y nos comprometemos
@@ -17,16 +19,16 @@ export default function Privacy() {
         seguridad de estándar de la industria para proteger tu información
         personal, y revisamos y actualizamos regularmente nuestros protocolos de
         seguridad para garantizar el más alto nivel de protección. Si tienes
-        alguna pregunta o inquietud sobre nuestra Política de privacidad, no
+        alguna pregunta o inquietud sobre nuestra política de privacidad, no
         dudes en contactarnos a través de{" "}
         <Link href="mailto:privacy@inglesmiami.com">
           privacy@inglesmiami.com
         </Link>
         . Haremos nuestro mejor esfuerzo para ayudarte y proporcionarte
         cualquier información que puedas necesitar. Gracias por elegir{" "}
-        {process.env.NEXT_PUBLIC_TITLE} como tu compañero de aprendizaje de
-        inglés. Nos comprometemos a proteger tu privacidad y brindarte la mejor
-        experiencia de usuario posible.
+        <span className="transform-title">{process.env.NEXT_PUBLIC_TITLE}</span>{" "}
+        como tu compañero de aprendizaje de inglés. Nos comprometemos a proteger
+        tu privacidad y brindarte la mejor experiencia de usuario posible.
       </p>
     </Layout>
   );

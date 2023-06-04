@@ -30,7 +30,7 @@ export default function Contact() {
   return (
     <Layout>
       <section className="mb-4">
-        <h2 className="h1-responsive font-weight-bold display-4 fw-normal text-center">
+        <h2 className="h1-responsive font-weight-bold display-4 fw-normal text-center delauney-font">
           Contactanos
         </h2>
         <p className="text-center w-responsive mx-auto mb-4">

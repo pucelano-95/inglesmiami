@@ -4,7 +4,7 @@ import Link from "next/link";
 export default function Prices() {
   return (
     <Layout>
-      <h1 className="display-4 fw-normal text-center">Precios</h1>
+      <h1 className="display-4 fw-normal text-center delauney-font">Precios</h1>
       <div className="mt-5 row row-cols-1 row-cols-md-2 mb-2 text-center">
         <div className="col">
           <div className="card mb-4 rounded-3 shadow-sm">

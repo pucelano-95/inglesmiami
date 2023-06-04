@@ -4,10 +4,10 @@ import Presentation from "@/components/main/presentation";
 
 export default function Home() {
   return (
-    <div>
-      <Header title={process.env.NEXT_PUBLIC_TITLE} />
+    <>
+      <Header title={process.env.NEXT_PUBLIC_TITLE} className="delauney-font" />
       <Presentation />
-      <Footer />
-    </div>
+      <Footer className="bg-darker delauney-font" />
+    </>
   );
 }

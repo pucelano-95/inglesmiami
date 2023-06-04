@@ -3,8 +3,10 @@ import Link from "next/link";
 
 export default function Terms() {
   return (
-    <Layout className="p-5 mx-auto fs-5 text-dark">
-      <h1 className="display-4 fw-normal">Términos de servicio</h1>
+    <Layout className="p-5 mx-auto text-dark">
+      <h1 className="display-4 fw-normal delauney-font">
+        Terminos de servicio
+      </h1>
       <p>
         ¡Bienvenido/a a nuestro sitio web! Estos Términos de Servicio rigen su
         uso de nuestro sitio web, incluyendo cualquier contenido, funcionalidad
@@ -68,7 +70,11 @@ export default function Terms() {
       </p>
       <p>
         Si tiene alguna duda acerca de estos términos, por favor contáctanos en
-        el <Link href="mailto:support@inglesmiami.com">support@inglesmiami.com</Link>.
+        el{" "}
+        <Link href="mailto:support@inglesmiami.com">
+          support@inglesmiami.com
+        </Link>
+        .
       </p>
     </Layout>
   );

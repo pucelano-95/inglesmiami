@@ -7,10 +7,12 @@ export default function Classes() {
     <Layout className="p-5 mx-auto text-center">
       <section className="jumbotron text-center">
         <div className="container">
-          <h1 className="display-4 fw-normal">Clases de Inglés en Miami</h1>
-          <p className="lead">
+          <h1 className="display-4 fw-normal delauney-font">
+            Clases de ingles en Miami
+          </h1>
+          <h2 className="lead">
             Aprende inglés con nuestros profesionales certificados
-          </p>
+          </h2>
         </div>
       </section>
 

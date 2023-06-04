@@ -8,10 +8,10 @@ export default function Presentation() {
         alt="inglesmiamilogo"
         width={400}
         height={400}
-        className="img-fluid"
+        className="img-fluid pt-3"
         style={{ width: "40%", height: "auto" }}
       />
-      <h1 className="fs-100 text-white">
+      <h1 className="fs-100 text-white pt-4 delauney-font">
         Conectando personas, empoderando la comunicacion
       </h1>
     </div>

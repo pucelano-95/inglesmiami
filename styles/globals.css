@@ -1,3 +1,6 @@
+.delauney-font {
+  font-family: "Delauney", sans-serif;
+}
 .calendly-div {
   height: 100vh;
   padding: 0;
@@ -9,7 +12,9 @@
 .bg-turquoise {
   background-color: turquoise;
 }
-
+.bg-darker {
+  background-color: #f7f7f7;
+}
 .background-image {
   background: linear-gradient(
       201deg,
@@ -18,4 +23,23 @@
     ),
     url("/profesores-ingles-online.jpeg");
   height: 100vh;
+}
+@font-face {
+  font-family: "Delauney";
+  src: url("../fonts/delauney.woff") format("truetype");
+}
+.transform-title {
+  text-transform: uppercase;
+  font-weight: bold;
+}
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 60px;
+}
+html {
+  position: relative;
+  min-height: 100%;
+  background-color: #f7f7f7;
 }

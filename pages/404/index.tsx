@@ -7,14 +7,14 @@ const NotFoundPage = () => {
       <div className="container">
         <div className="row">
           <div className="col text-center py-5">
-            <h1 className="display-1">
+            <h1 className="display-1 delauney-font">
               4<span className="text-danger">0</span>4
             </h1>
-            <p className="lead">¡Oye! Parece que esta página no existe.</p>
-            <p>
+            <h2 className="lead">¡Oye! Parece que esta página no existe.</h2>
+            <h2>
               Puedes volver al <Link href="/">inicio</Link> o intentarlo de
               nuevo más tarde.
-            </p>
+            </h2>
           </div>
         </div>
       </div>

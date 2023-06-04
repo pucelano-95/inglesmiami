@@ -5,8 +5,8 @@ import Calendly from "@/components/shared/calendly";
 export default function Test() {
   return (
     <Layout className="p-5 mx-auto text-center">
-      <h1 className="display-4 fw-normal">
-        ¿Quieres saber tu nivel de inglés?
+      <h1 className="display-4 fw-normal delauney-font">
+        ¿Quieres saber tu nivel de ingles?
       </h1>
       <Image
         src="/people_thinking.jpeg"
@@ -17,7 +17,7 @@ export default function Test() {
         style={{ width: "40%", height: "auto" }}
       />
       <p className="my-4 fs-5 text-dark">
-        Puedes reservar una clase con nosotros aqui mismo!
+        ¡Puedes reservar una clase con nosotros aqui mismo!
       </p>
       <Calendly />
     </Layout>
